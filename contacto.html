@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - ExploraMundo</title>
+</head>
+<body>
+
+    <!-- CABECERA -->
+    <header class="main-header">
+        <div class="logo">
+            <h1>ExploraMundo</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-title">
+        <h2>Ponte en contacto con nosotros</h2>
+        <p>¿Tienes alguna duda sobre nuestras guías o quieres colaborar? Escríbenos.</p>
+    </section>
+
+    <!-- CONTENEDOR DE CONTACTO: Ideal para layout 2 columnas (Formulario a un lado, Info al otro) -->
+    <main class="contact-container">
+        
+        <!-- SECCIÓN 1: Formulario -->
+        <section class="contact-form-section">
+            <h3>Envíanos un mensaje</h3>
+            <form class="contact-form">
+                
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Ej. Consulta sobre destino">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+        <!-- SECCIÓN 2: Información de contacto -->
+        <section class="contact-info-section">
+            <h3>Información de contacto</h3>
+            
+            <div class="info-item">
+                <strong>Dirección:</strong>
+                <p>Calle Gran Vía 12, 28013 Madrid, España</p>
+            </div>
+
+            <div class="info-item">
+                <strong>Teléfono:</strong>
+                <p>+34 912 345 678</p>
+            </div>
+
+            <div class="info-item">
+                <strong>Email de soporte:</strong>
+                <p>info@exploramundo.com</p>
+            </div>
+
+            <div class="info-item">
+                <strong>Horario de atención:</strong>
+                <p>Lunes a Viernes: 9:00 - 18:00</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="main-footer">
+        <p>&copy; 2026 ExploraMundo. Todos los derechos reservados.</p>
+        <ul class="social-links">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos - ExploraMundo</title>
+</head>
+<body>
+
+    <!-- CABECERA -->
+    <header class="main-header">
+        <div class="logo">
+            <h1>ExploraMundo</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- TÍTULO DE SECCIÓN -->
+    <section class="page-title">
+        <h2>Catálogo de Destinos</h2>
+        <p>Encuentra tu próximo viaje filtrando por continente o tipo de experiencia.</p>
+    </section>
+
+    <!-- BARRA DE FILTROS: Ideal para align-items y gap en Flexbox -->
+    <section class="filters-section">
+        <form class="filters-form">
+            <div class="filter-group">
+                <label for="continente">Continente:</label>
+                <select id="continente">
+                    <option value="todos">Todos</option>
+                    <option value="europa">Europa</option>
+                    <option value="asia">Asia</option>
+                    <option value="america">América</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="tipo">Tipo de viaje:</label>
+                <select id="tipo">
+                    <option value="todos">Todos</option>
+                    <option value="playa">Playa</option>
+                    <option value="montana">Montaña</option>
+                    <option value="cultural">Cultural</option>
+                </select>
+            </div>
+
+            <button type="submit">Filtrar</button>
+        </form>
+    </section>
+
+    <!-- REJILLA/GRID DE DESTINOS: Ideal para flex-wrap y card layouts -->
+    <main class="destinations-grid">
+        
+        <article class="destination-card">
+            <img src="https://via.placeholder.com/300x200" alt="París">
+            <div class="card-body">
+                <span class="badge">Europa</span>
+                <h3>París</h3>
+                <p>La ciudad del amor, famosa por la Torre Eiffel y sus museos.</p>
+                <span class="price">Desde 350€</span>
+                <a href="#">Ver detalles</a>
+            </div>
+        </article>
+
+        <article class="destination-card">
+            <img src="https://via.placeholder.com/300x200" alt="Tokio">
+            <div class="card-body">
+                <span class="badge">Asia</span>
+                <h3>Tokio</h3>
+                <p>Rascacielos iluminados, templos antiguos y gastronomía única.</p>
+                <span class="price">Desde 890€</span>
+                <a href="#">Ver detalles</a>
+            </div>
+        </article>
+
+        <article class="destination-card">
+            <img src="https://via.placeholder.com/300x200" alt="Nueva York">
+            <div class="card-body">
+                <span class="badge">América</span>
+                <h3>Nueva York</h3>
+                <p>La ciudad que nunca duerme: Times Square, Broadway y Central Park.</p>
+                <span class="price">Desde 620€</span>
+                <a href="#">Ver detalles</a>
+            </div>
+        </article>
+
+        <article class="destination-card">
+            <img src="https://via.placeholder.com/300x200" alt="El Cairo">
+            <div class="card-body">
+                <span class="badge">África</span>
+                <h3>El Cairo</h3>
+                <p>Historia milenaria, las pirámides de Guiza y el majestuoso río Nilo.</p>
+                <span class="price">Desde 450€</span>
+                <a href="#">Ver detalles</a>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="main-footer">
+        <p>&copy; 2026 ExploraMundo. Todos los derechos reservados.</p>
+        <ul class="social-links">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
